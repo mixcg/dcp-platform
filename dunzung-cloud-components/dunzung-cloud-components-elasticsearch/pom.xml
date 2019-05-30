@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>dunzung-cloud-components</artifactId>
+        <groupId>com.dunzung.cloud.components</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>unicom-portal-components-elasticsearch</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.unicom.portal.framework</groupId>
+            <artifactId>unicom-portal-framework-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
