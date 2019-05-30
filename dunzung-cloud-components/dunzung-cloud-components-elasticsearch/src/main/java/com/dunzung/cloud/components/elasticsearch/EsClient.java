@@ -1,4 +1,4 @@
-package com.unicom.portal.components.elasticsearch;
+package com.dunzung.cloud.components.elasticsearch;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;

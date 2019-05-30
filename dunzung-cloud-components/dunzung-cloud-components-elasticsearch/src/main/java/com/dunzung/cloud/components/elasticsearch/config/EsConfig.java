@@ -1,4 +1,4 @@
-package com.unicom.portal.components.elasticsearch.config;
+package com.dunzung.cloud.components.elasticsearch.config;
 
 import lombok.Data;
 import org.elasticsearch.client.transport.TransportClient;
