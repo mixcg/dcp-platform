@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Properties;
 
-@ComponentScan(value="com.unicom.portal")
+@ComponentScan(value="com.dunzung.cloud")
 @EnableAutoConfiguration
 public class ApplicationStarter extends SpringBootServletInitializer {
     private static final Logger logger = LoggerFactory.getLogger(ApplicationStarter.class);

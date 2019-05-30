@@ -11,7 +11,7 @@ public class XssUtils {
         EXCEPTIONALS.add("/selfpanel/v1/mysetup/");
         EXCEPTIONALS.add("/recommend/v1");
         EXCEPTIONALS.add("/fullsearch/v1");
-        EXCEPTIONALS.add("dicts/v1/dictnoes/items");
+        EXCEPTIONALS.add("/dicts/v1/dictnoes/items");
         EXCEPTIONALS.add("/appConfig/v1/");
         EXCEPTIONALS.add("/appCenter/v1/");
         EXCEPTIONALS.add("/article");
@@ -21,7 +21,6 @@ public class XssUtils {
         EXCEPTIONALS.add("/news");
         EXCEPTIONALS.add("/ejectPic/ejectpic");
         EXCEPTIONALS.add("/sys/role/info/");
-        EXCEPTIONALS.add("7018/");
     }
 
     /**
