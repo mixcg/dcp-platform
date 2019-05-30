@@ -1,9 +1,8 @@
-package com.unicom.portal.components.mongo.config;
+package com.dunzung.cloud.components.mongo.config;
 
-import com.unicom.portal.components.mongo.service.MongoService;
-import com.unicom.portal.components.mongo.service.impl.MongoServiceImpl;
+import com.dunzung.cloud.components.mongo.service.MongoService;
+import com.dunzung.cloud.components.mongo.service.impl.MongoServiceImpl;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

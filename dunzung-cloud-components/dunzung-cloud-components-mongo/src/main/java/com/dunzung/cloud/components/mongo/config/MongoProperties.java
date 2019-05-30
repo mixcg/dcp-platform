@@ -1,4 +1,4 @@
-package com.unicom.portal.components.mongo.config;
+package com.dunzung.cloud.components.mongo.config;
 
 import com.mongodb.ServerAddress;
 import lombok.Data;

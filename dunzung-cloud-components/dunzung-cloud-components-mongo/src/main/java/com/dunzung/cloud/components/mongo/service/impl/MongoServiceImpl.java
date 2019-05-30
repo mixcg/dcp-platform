@@ -1,6 +1,6 @@
-package com.unicom.portal.components.mongo.service.impl;
+package com.dunzung.cloud.components.mongo.service.impl;
 
-import com.unicom.portal.components.mongo.service.MongoService;
+import com.dunzung.cloud.components.mongo.service.MongoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
