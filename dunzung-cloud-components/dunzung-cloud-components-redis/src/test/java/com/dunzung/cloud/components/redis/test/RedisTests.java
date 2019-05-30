@@ -1,4 +1,4 @@
-package com.unicom.portal.components.redis.test;
+package com.dunzung.cloud.components.redis.test;
 
 import io.codis.jodis.JedisResourcePool;
 import io.codis.jodis.RoundRobinJedisPool;
@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.unicom.portal.components.redis.codis;
+package com.dunzung.cloud.components.redis.codis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Preconditions;

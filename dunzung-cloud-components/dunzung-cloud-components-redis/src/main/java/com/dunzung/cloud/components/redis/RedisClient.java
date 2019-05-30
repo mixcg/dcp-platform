@@ -1,6 +1,6 @@
-package com.unicom.portal.components.redis;
+package com.dunzung.cloud.components.redis;
 
-import com.unicom.portal.components.redis.config.RedisConfig;
+import com.dunzung.cloud.components.redis.config.RedisConfig;
 import com.unicom.portal.framework.utils.CollectionUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

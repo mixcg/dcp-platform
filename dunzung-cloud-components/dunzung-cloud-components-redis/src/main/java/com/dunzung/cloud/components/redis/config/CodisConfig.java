@@ -1,10 +1,10 @@
-package com.unicom.portal.components.redis.config;
+package com.dunzung.cloud.components.redis.config;
 
+import com.dunzung.cloud.components.redis.codis.CodisConnectionFactory;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.unicom.portal.components.redis.codis.CodisConnectionFactory;
-import com.unicom.portal.components.redis.codis.CodisRoundRobinJedisPool;
+import com.dunzung.cloud.components.redis.codis.CodisRoundRobinJedisPool;
 import io.codis.jodis.JedisResourcePool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

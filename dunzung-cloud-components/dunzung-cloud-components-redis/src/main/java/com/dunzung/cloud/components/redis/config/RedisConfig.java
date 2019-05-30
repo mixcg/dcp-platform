@@ -1,4 +1,4 @@
-package com.unicom.portal.components.redis.config;
+package com.dunzung.cloud.components.redis.config;
 
 import io.codis.jodis.JedisResourcePool;
 import io.codis.jodis.RoundRobinJedisPool;
