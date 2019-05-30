@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.dunzung.cloud.framework</groupId>
-            <artifactId>dunzung-cloudf-framework-core</artifactId>
+            <artifactId>dunzung-cloud-framework-core</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
