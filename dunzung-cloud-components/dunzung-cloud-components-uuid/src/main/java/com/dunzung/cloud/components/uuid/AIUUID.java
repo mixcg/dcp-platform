@@ -1,4 +1,4 @@
-package com.unicom.portal.components.uuid;
+package com.dunzung.cloud.components.uuid;
 
 
 import org.slf4j.Logger;
@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * Created by duanzj on 2018/12/5.
  */
 public class AIUUID {
-    private final static Logger logger = LoggerFactory.getLogger(com.unicom.portal.components.uuid.AIUUID.class);
+    private final static Logger logger = LoggerFactory.getLogger(com.dunzung.cloud.components.uuid.AIUUID.class);
 
     private final long workerId;
     private final long epoch = 1403854494756L;   // 时间起始标记点，作为基准，一般取系统的最近时间
@@ -77,7 +77,7 @@ public class AIUUID {
     }
 
     public static void main(String[] args) throws Exception {
-        com.unicom.portal.components.uuid.AIUUID idWorker = com.unicom.portal.components.uuid.AIUUID.getInstance();
+        com.dunzung.cloud.components.uuid.AIUUID idWorker = com.dunzung.cloud.components.uuid.AIUUID.getInstance();
         System.out.println(idWorker.nextId());
     }
 

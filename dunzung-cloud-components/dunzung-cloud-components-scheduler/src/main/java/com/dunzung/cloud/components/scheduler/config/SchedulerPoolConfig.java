@@ -1,4 +1,4 @@
-package com.unicom.portal.components.scheduler.config;
+package com.dunzung.cloud.components.scheduler.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
