@@ -17,7 +17,6 @@
         <module>dunzung-cloud-framework-core</module>
 		<module>dunzung-cloud-framework-mvc</module>
 		<module>dunzung-cloud-framework-dao</module>
-        <module>dunzung-cloud-framework-service</module>
     </modules>
 
     <build>
