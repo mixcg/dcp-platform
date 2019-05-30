@@ -10,12 +10,12 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>unicom-portal-components-elasticsearch</artifactId>
+    <artifactId>dunzung-cloud-components-elasticsearch</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.unicom.portal.framework</groupId>
-            <artifactId>unicom-portal-framework-core</artifactId>
+            <groupId>com.dunzung.cloud.framework</groupId>
+            <artifactId>dunzung-cloud-framework-core</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

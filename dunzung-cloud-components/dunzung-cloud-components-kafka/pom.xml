@@ -11,14 +11,8 @@
     </parent>
 
     <artifactId>dunzung-cloud-components-kafka</artifactId>
-    <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
-            <groupId>com.unicom.portal.framework</groupId>
-            <artifactId>dunzung-cloud-framework-service</artifactId>
-            <version>1.0.0</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
