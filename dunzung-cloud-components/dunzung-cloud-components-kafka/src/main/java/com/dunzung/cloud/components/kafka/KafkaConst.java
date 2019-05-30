@@ -1,4 +1,4 @@
-package com.unicom.portal.components.kafka;
+package com.dunzung.cloud.components.kafka;
 
 /**
  * Created by duanzj on 2018/10/10.

@@ -1,7 +1,7 @@
-package com.unicom.portal.components.kafka.config;
+package com.dunzung.cloud.components.kafka.config;
 
-import com.unicom.portal.components.kafka.service.KafkaProducerService;
-import com.unicom.portal.components.kafka.service.impl.KafkaProducerServiceImpl;
+import com.dunzung.cloud.components.kafka.service.impl.KafkaProducerServiceImpl;
+import com.dunzung.cloud.components.kafka.service.KafkaProducerService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

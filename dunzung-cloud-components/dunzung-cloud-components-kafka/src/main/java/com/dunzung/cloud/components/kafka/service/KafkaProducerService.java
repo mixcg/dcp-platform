@@ -1,4 +1,4 @@
-package com.unicom.portal.components.kafka.service;
+package com.dunzung.cloud.components.kafka.service;
 
 import com.unicom.portal.components.kafka.dto.MsxBoxDTO;
 import org.springframework.kafka.core.KafkaTemplate;

@@ -1,19 +1,9 @@
-package com.unicom.portal.components.kafka;
+package com.dunzung.cloud.components.kafka;
 
 import com.alibaba.fastjson.JSON;
 import com.unicom.portal.components.kafka.dto.MsxBoxDTO;
-import org.apache.kafka.clients.consumer.Consumer;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.common.PartitionInfo;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.kafka.core.ConsumerFactory;
-import org.springframework.stereotype.Component;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.*;
 

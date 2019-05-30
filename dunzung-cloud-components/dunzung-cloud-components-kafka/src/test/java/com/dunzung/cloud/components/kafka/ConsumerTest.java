@@ -1,4 +1,4 @@
-package com.unicom.portal.components.kafka;
+package com.dunzung.cloud.components.kafka;
 
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

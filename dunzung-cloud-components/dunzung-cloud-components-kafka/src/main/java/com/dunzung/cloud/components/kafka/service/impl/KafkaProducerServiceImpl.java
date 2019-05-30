@@ -1,9 +1,9 @@
-package com.unicom.portal.components.kafka.service.impl;
+package com.dunzung.cloud.components.kafka.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.unicom.portal.components.kafka.KafkaConst;
+import com.dunzung.cloud.components.kafka.KafkaConst;
 import com.unicom.portal.components.kafka.dto.MsxBoxDTO;
-import com.unicom.portal.components.kafka.service.KafkaProducerService;
+import com.dunzung.cloud.components.kafka.service.KafkaProducerService;
 import com.unicom.portal.framework.BizConst;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
