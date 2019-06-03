@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 /**
  * Created by duanzj on 2018/9/10.
  */
-@Service
 public class MongoServiceImpl implements MongoService {
 
     @Autowired
