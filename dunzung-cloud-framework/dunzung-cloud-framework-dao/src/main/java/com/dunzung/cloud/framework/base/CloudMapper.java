@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Created by Wooola on 2018/9/10.
  */
-public interface PortalMapper<T> extends BaseMapper<T> {
+public interface CloudMapper<T> extends BaseMapper<T> {
 
     void save(T t);
 
