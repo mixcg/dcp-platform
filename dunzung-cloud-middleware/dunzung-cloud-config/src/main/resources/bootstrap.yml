@@ -1,0 +1,35 @@
+server: 
+  port: 8888
+spring:
+  application:
+    name: dunzung-cloud-config
+  cloud:
+    config:
+      name: dunzung-cloud-config
+      server:
+        git:
+          uri: https://github.com/dunzung/dunzung-repo.git
+          searchPaths: /{application}
+security:
+  basic:
+    enabled: false
+  user:
+    name: unicom
+    password: 123456
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.didispace.com/eureka/
+  instance:
+    status-page-url-path: /info
+    instanceId: ${spring.application.name}:${random.value}
+    prefer-ip-address: true
+    registry-fetch-interval-seconds: 30
+    lease-renewal-interval-in-seconds: 15
+    lease-expiration-duration-in-seconds: 15
+
+management:
+  security:
+    enabled: false
+
