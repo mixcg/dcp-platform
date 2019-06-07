@@ -1,6 +1,7 @@
 package com.dunzung.cloud.framework.web;
 
 import com.dunzung.cloud.framework.RequestHolder;
+import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -15,6 +16,8 @@ import javax.servlet.http.HttpServletResponse;
  * @version 2013-3-23
  */
 public abstract class BaseController {
+
+    public Gson gson = new Gson();
 
     /**
      * 日志对象
