@@ -1,6 +1,5 @@
 package com.dunzung.cloud.security.service.impl;
 
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.dunzung.cloud.framework.base.service.impl.MybatisServiceImpl;
 import com.dunzung.cloud.framework.pagination.PageEntity;
 import com.dunzung.cloud.security.entity.UserEntity;

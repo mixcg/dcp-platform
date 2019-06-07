@@ -2,12 +2,12 @@ package com.dunzung.cloud.security.entity;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class MenuEntity {
 
     private String menuId;
-
-    private String menuCode;
 
     private String moduleCode;
 
@@ -17,14 +17,23 @@ public class MenuEntity {
 
     private String menuType;
 
-    private MenuEntity parentMenu;
+    private Integer status;
 
-    private Long order;
+    private String iconName;
+
+    private Integer order;
 
     private String remark;
 
-    private String status;
 
-    private String iconName;
+    private MenuEntity p;
+
+    private String creator;
+
+    private Date createdTm;
+
+    private String modifier;
+
+    private Date modifiedTm;
 
 }

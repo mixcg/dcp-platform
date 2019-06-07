@@ -1,4 +1,4 @@
-package com.dunzung.cloud.security.entity;
+package com.dunzung.cloud.sso.entity;
 
 import lombok.Data;
 
@@ -8,6 +8,8 @@ import java.util.Date;
 public class RoleEntity {
 
     private String roleId;
+
+    private String roleCode;
 
     private String roleName;
 

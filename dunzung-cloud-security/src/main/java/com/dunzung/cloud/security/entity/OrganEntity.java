@@ -7,15 +7,13 @@ import java.util.Date;
 @Data
 public class OrganEntity {
 
-    private String orgId;
-
     private String orgCode;
 
     private String orgName;
 
     private Integer level;
 
-    private OrganEntity parentOrgan;
+    private OrganEntity p;
 
     private String orgSeq;
 
