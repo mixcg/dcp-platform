@@ -1,0 +1,10 @@
+zuul:
+  ignored-services: '*'
+  routes:
+    security:
+      path: /security/**
+      serviceId: dunzung-cloud-security
+      
+management:
+  security:
+    enabled: false

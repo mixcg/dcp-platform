@@ -1,0 +1,46 @@
+# datasource
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${db.secdb.ip}:${db.secdb.port}/plt_security?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: ${db.secdb.username}
+    password: ${db.secdb.password}
+    druid:
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      query-timeout: 6000
+      transaction-query-timeout: 6000
+      remove-abandoned-timeout: 1800
+      filter-class-names: stat
+      filters: stat,config
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.dunzung.cloud.security.entity
+
+#Swagger
+api:
+  swagger:
+    title: 权限管理服务
+    contact: zhijund@163.com
+    version: 1.0
+    basePackage: com.dunzung.cloud.security.controller
+
+#Admin
+info:
+  name: dunzung-cloud-security
+  description: 权限管理服务
+  version: 1.0.0
+
+endpoints:
+  trace:
+    enabled: true
+    sensitive: false
+
+management:
+  security:
+    enabled: false

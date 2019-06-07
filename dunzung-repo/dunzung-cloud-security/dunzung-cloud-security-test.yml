@@ -1,0 +1,46 @@
+# datasource
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${cluster.basedb.ip}:${cluster.basedb.port}/unicom_wsm?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: ${cluster.basedb.username}
+    password: ${cluster.basedb.password}
+    druid:
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      query-timeout: 6000
+      transaction-query-timeout: 6000
+      remove-abandoned-timeout: 1800
+      filter-class-names: stat
+      filters: stat,config
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.unicom.portal.wsm.entity
+
+#Swagger
+api:
+  swagger:
+    title: 站点管理服务
+    contact: TalkWeb
+    version: 0.1
+    basePackage: com.unicom.portal.wsm.controller
+
+#Admin
+info:
+  name: aiportal-wsm-service
+  description: 站点管理服务
+  version: 1.0.0
+
+endpoints:
+  trace:
+    enabled: true
+    sensitive: false
+
+management:
+  security:
+    enabled: false
