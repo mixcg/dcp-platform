@@ -10,4 +10,8 @@ import java.util.Map;
  */
 public interface CloudMapper<T> extends BaseMapper<T> {
 
+    int getCount(T entity);
+
+    List<T> getList(T entity);
+
 }
