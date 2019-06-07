@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @EnableHystrix
-@EnableFeignClients(basePackages = {"com.unicom.portal.**.feign.**"})
+@EnableFeignClients(basePackages = {"com.dunzung.cloud.**.feign.**"})
 @Import({EurekaClientConfig.class, SwaggerConfig.class,})
-public class PortalConfig {
+public class MvcConfig {
 
 }

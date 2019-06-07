@@ -1,6 +1,6 @@
 package com.dunzung.cloud.framework;
 
-import com.dunzung.cloud.framework.config.PortalConfig;
+import com.dunzung.cloud.framework.config.MvcConfig;
 import com.dunzung.cloud.framework.utils.LogbackUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +21,7 @@ public class ApplicationStarter extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(PortalConfig.class);
+        return application.sources(MvcConfig.class);
     }
 
     public static void run(Class<?> assemblyClass, String[] args) {
