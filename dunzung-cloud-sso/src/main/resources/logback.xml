@@ -5,9 +5,9 @@
     <logger name="org.springboot.sample" level="TRACE" />
     <property name="log_dir" value="/home/dev/logs" />
     <appender name="cloud-info" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${log_dir}/security.log</file>
+        <file>${log_dir}/sso.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log_dir}/security-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>${log_dir}/sso-%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder><!-- 必须指定，否则不会往文件输出内容 -->
@@ -16,7 +16,7 @@
         <append>false</append>
         <prudent>false</prudent>
     </appender>
-    <logger name="com.dunzung.cloud.security" level="INFO">
+    <logger name="com.dunzung.cloud.sso" level="INFO">
         <appender-ref ref="cloud-info" />
     </logger>
     <jmxConfigurator/>
