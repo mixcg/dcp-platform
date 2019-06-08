@@ -12,7 +12,7 @@ import java.security.Principal;
 @Api("SSO API接口")
 @RestController
 @RequestMapping("/api/v1/sso")
-public class SsoController extends BaseController {
+public class UasController extends BaseController {
 
     @ApiOperation(value = "用户认证信息", notes = "用户认证信息")
     @GetMapping(value = "/authinfo")

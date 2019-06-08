@@ -5,7 +5,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 /**
  * Created by Wooola on 2019/6/7.
  */
-public interface SsoService extends UserDetailsService {
+public interface UasService extends UserDetailsService {
 
     /**
      * 密码修改

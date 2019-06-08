@@ -7,7 +7,7 @@ import com.dunzung.cloud.uas.entity.AccountEntity;
 import com.dunzung.cloud.uas.entity.RoleEntity;
 import com.dunzung.cloud.uas.entity.UserEntity;
 import com.dunzung.cloud.uas.mapper.AccountMapper;
-import com.dunzung.cloud.uas.service.SsoService;
+import com.dunzung.cloud.uas.service.UasService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
@@ -25,7 +25,7 @@ import java.util.List;
  * Created by Wooola on 2019/6/07.
  */
 @Component
-public class SsoServiceImpl extends MybatisServiceImpl<AccountMapper, AccountEntity> implements SsoService {
+public class UasServiceImpl extends MybatisServiceImpl<AccountMapper, AccountEntity> implements UasService {
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

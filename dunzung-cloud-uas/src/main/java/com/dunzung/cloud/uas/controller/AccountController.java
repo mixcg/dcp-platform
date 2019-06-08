@@ -5,7 +5,7 @@ import com.dunzung.cloud.framework.mvc.web.BaseController;
 import com.dunzung.cloud.uas.entity.PwdRuleEntity;
 import com.dunzung.cloud.uas.entity.vo.AccountVO;
 import com.dunzung.cloud.uas.service.PwdRuleService;
-import com.dunzung.cloud.uas.service.SsoService;
+import com.dunzung.cloud.uas.service.UasService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 public class AccountController extends BaseController {
 
     @Autowired
-    private SsoService ssoService;
+    private UasService ssoService;
 
     @Autowired
     private PwdRuleService pwdRuleService;

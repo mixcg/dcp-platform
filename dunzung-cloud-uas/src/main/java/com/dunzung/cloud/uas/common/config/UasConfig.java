@@ -1,6 +1,6 @@
 package com.dunzung.cloud.uas.common.config;
 
-import com.dunzung.cloud.uas.service.SsoService;
+import com.dunzung.cloud.uas.service.UasService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,13 +29,13 @@ import java.util.List;
  */
 @Configuration
 @EnableAuthorizationServer
-public class SsoConfig extends AuthorizationServerConfigurerAdapter {
+public class UasConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
     private DataSource dataSource;
 
     @Autowired
-    private SsoService ssoService;
+    private UasService uasService;
 
     @Bean
     public AuthenticationManager authenticationManager() {
@@ -49,7 +49,7 @@ public class SsoConfig extends AuthorizationServerConfigurerAdapter {
     @Bean
     public AuthenticationProvider daoAuthenticationProvider() {
         DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
-        authenticationProvider.setUserDetailsService(ssoService);
+        authenticationProvider.setUserDetailsService(uasService);
         authenticationProvider.setHideUserNotFoundExceptions(false);
         authenticationProvider.setPasswordEncoder(passwordEncoder());
         return authenticationProvider;
