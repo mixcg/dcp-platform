@@ -3,9 +3,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${cluster.basedb.ip}:${cluster.basedb.port}/unicom_wsm?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-    username: ${cluster.basedb.username}
-    password: ${cluster.basedb.password}
+    url: jdbc:mysql://${db.bamsdb.ip}:${db.bamsdb.port}/plt_bams?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: ${db.bamsdb.username}
+    password: ${db.bamsdb.password}
     druid:
       initial-size: 10
       max-active: 100
@@ -20,20 +20,20 @@ spring:
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.unicom.portal.wsm.entity
+  type-aliases-package: com.dunzung.cloud.bams.entity
 
 #Swagger
 api:
   swagger:
-    title: 站点管理服务
-    contact: TalkWeb
-    version: 0.1
-    basePackage: com.unicom.portal.wsm.controller
+    title: 权限管理服务
+    contact: zhijund@163.com
+    version: 1.0
+    basePackage: com.dunzung.cloud.bams.controller
 
 #Admin
 info:
-  name: aiportal-wsm-service
-  description: 站点管理服务
+  name: dunzung-cloud-bams
+  description: 权限管理服务
   version: 1.0.0
 
 endpoints:

@@ -3,9 +3,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${db.secdb.ip}:${db.secdb.port}/plt_security?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-    username: ${db.secdb.username}
-    password: ${db.secdb.password}
+    url: jdbc:mysql://${db.bamsdb.ip}:${db.bamsdb.port}/plt_bams?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: ${db.bamsdb.username}
+    password: ${db.bamsdb.password}
     druid:
       initial-size: 10
       max-active: 100
