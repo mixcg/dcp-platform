@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.dunzung.cloud.uas</groupId>
-    <artifactId>dcp-uas</artifactId>
+    <artifactId>dcp-uas-service</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 

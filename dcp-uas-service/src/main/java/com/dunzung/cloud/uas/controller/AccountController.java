@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Api("用户校验操作")
 @RestController
-@RequestMapping(value = "/api/v1/account")
+@RequestMapping(value = "/api/v1/accounts")
 public class AccountController extends BaseController {
 
     @Autowired
