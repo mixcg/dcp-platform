@@ -16,8 +16,10 @@
         <append>false</append>
         <prudent>false</prudent>
     </appender>
+
     <logger name="com.dunzung.cloud.uam" level="INFO">
         <appender-ref ref="cloud-info" />
     </logger>
+
     <jmxConfigurator/>
 </configuration>
