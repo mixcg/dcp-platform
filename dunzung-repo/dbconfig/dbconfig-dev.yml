@@ -4,3 +4,9 @@ db:
     port: 3306
     username: root
     password: admin
+db:
+  uasdb:
+    ip: localhost
+    port: 3306
+    username: root
+    password: admin
