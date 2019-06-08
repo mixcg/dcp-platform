@@ -22,6 +22,7 @@
         <module>dunzung-cloud-components-mongo</module>
         <module>dunzung-cloud-components-elasticsearch</module>
         <module>dunzung-cloud-components-uuid</module>
+        <module>dunzung-cloud-componengs-oauth2</module>
     </modules>
 
     <dependencyManagement>
