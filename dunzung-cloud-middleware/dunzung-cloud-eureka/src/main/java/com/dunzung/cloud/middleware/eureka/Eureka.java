@@ -1,4 +1,4 @@
-package com.dunzung.cloud.eureka;
+package com.dunzung.cloud.middleware.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

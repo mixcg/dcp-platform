@@ -1,6 +1,6 @@
-package com.dunzung.cloud.zuul.filter;
+package com.dunzung.cloud.middleware.zuul.filter;
 
-import com.dunzung.cloud.framework.OauthConst;
+import com.dunzung.cloud.framework.oauth.OauthConst;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import org.slf4j.Logger;
