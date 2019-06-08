@@ -2,13 +2,13 @@ server:
   port: 8888
 spring:
   application:
-    name: dunzung-cloud-config
+    name: dcp-configserver
   cloud:
     config:
-      name: dunzung-cloud-config
+      name: dcp-configserver
       server:
         git:
-          uri: https://github.com/dunzung/dunzung-repo.git
+          uri: https://github.com/dunzung/dcp-repo.git
           searchPaths: /{application}
 security:
   basic:

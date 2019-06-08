@@ -5,14 +5,14 @@ server:
 # spring
 spring:
   application:
-    name: dunzung-cloud-bams
+    name: dcp-bams-service
   cloud:
     config:
-      name: dunzung-cloud-bams,global,dbconfig
+      name: dcp-bams-service,global,dbconfig
       profile: dev
       discovery:
         enabled: true
-        service-id: dunzung-cloud-config
+        service-id: dcp-configserver
 
 # eureka
 eureka:
