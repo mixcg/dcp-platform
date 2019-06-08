@@ -1,4 +1,4 @@
-package com.dunzung.cloud.framework.oauth;
+package com.dunzung.cloud.framework.oauth.details;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
