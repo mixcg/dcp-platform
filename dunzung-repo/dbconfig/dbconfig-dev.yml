@@ -1,5 +1,5 @@
 db:
-  secdb:
+  bamsdb:
     ip: localhost
     port: 3306
     username: root
