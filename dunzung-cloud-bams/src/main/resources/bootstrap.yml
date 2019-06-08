@@ -5,10 +5,10 @@ server:
 # spring
 spring:
   application:
-    name: dunzung-cloud-security
+    name: dunzung-cloud-bams
   cloud:
     config:
-      name: dunzung-cloud-security,global,dbconfig
+      name: dunzung-cloud-bams,global,dbconfig
       profile: dev
       discovery:
         enabled: true

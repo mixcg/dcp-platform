@@ -1,4 +1,4 @@
-package com.dunzung.cloud.configserver;
+package com.dunzung.cloud.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

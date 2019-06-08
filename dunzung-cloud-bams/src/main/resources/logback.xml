@@ -16,7 +16,7 @@
         <append>false</append>
         <prudent>false</prudent>
     </appender>
-    <logger name="com.dunzung.cloud.security" level="INFO">
+    <logger name="com.dunzung.cloud.bams" level="INFO">
         <appender-ref ref="cloud-info" />
     </logger>
     <jmxConfigurator/>
