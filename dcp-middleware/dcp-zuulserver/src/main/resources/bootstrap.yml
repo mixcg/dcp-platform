@@ -3,14 +3,14 @@ server:
 
 spring:
   application:
-    name: dunzung-cloud-zuul
+    name: dcp-zuulserver
   cloud:
     config:
-      name: dunzung-cloud-zuul,global
+      name: dcp-zuulserver,global
       profile: dev
       discovery:
         enabled: true
-        service-id: dunzung-cloud-config
+        service-id: dcp-configserver
 
 eureka:
   client:
