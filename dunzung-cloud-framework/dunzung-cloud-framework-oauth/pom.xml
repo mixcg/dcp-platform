@@ -10,7 +10,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>dunzung-cloud-framework-security</artifactId>
+    <artifactId>dunzung-cloud-framework-oauth</artifactId>
 
     <dependencies>
         <dependency>
