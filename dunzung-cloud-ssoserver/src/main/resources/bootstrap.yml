@@ -1,6 +1,6 @@
 # server
 server:
-  port: 7002
+  port: 80
 
 # spring
 spring:
