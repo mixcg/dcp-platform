@@ -16,10 +16,10 @@ security:
     client:
       client-id: jund
       client-secret: secret
-      access-token-uri: http://auth-server/uas/oauth/token
-      user-authorization-uri: http://auth-server/uas/oauth/authorize
+      access-token-uri: http://dunzung-cloud-ssoserver/sso/oauth/token
+      user-authorization-uri: http://dunzung-cloud-ssoserver/sso/oauth/authorize
     resource:
-      user-info-uri: http://auth-server/uas/api/v1/oauth/info
+      user-info-uri: http://dunzung-cloud-ssoserver/sso/api/v1/sso/authinfo
       prefer-token-info: false
 
 management:
