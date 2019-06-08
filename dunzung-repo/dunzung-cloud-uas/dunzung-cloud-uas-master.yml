@@ -19,7 +19,7 @@ spring:
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.dunzung.cloud.ssosever.entity
+  type-aliases-package: com.dunzung.cloud.uas.entity
 
 #Swagger
 api:
@@ -27,11 +27,11 @@ api:
     title: 认证服务
     contact: zhijund@163.com
     version: 1.0
-    basePackage: com.dunzung.cloud.ssosever.controller
+    basePackage: com.dunzung.cloud.uas.controller
 
 #Admin
 info:
-  name: dunzung-cloud-ssosever
+  name: dunzung-cloud-uas
   description: 认证服务
   version: 1.0.0
 

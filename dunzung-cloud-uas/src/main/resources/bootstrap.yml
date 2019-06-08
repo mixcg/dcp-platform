@@ -5,10 +5,10 @@ server:
 # spring
 spring:
   application:
-    name: dunzung-cloud-ssoserver
+    name: dunzung-cloud-uas
   cloud:
     config:
-      name: dunzung-cloud-ssoserver, global, dbconfig
+      name: dunzung-cloud-uas, global, dbconfig
       profile: dev
       discovery:
         enabled: true
