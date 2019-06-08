@@ -15,7 +15,7 @@ security:
     enabled: false
   user:
     name: admin
-    password: @Dunzung1987
+    password: Dunzung1987
 
 eureka:
   client:
