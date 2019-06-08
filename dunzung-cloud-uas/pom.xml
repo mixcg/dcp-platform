@@ -23,7 +23,12 @@
         </dependency>
         <dependency>
             <groupId>com.dunzung.cloud.framework</groupId>
-            <artifactId>dunzung-cloud-framework-oauth</artifactId>
+            <artifactId>dunzung-cloud-framework-mvc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dunzung.cloud.components</groupId>
+            <artifactId>dunzung-cloud-componengs-oauth2</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

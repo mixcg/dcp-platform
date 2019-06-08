@@ -1,6 +1,6 @@
 package com.dunzung.cloud.uas.service.impl;
 
-import com.dunzung.cloud.framework.oauth.AuthUserInfo;
+import com.dunzung.cloud.components.oauth2.details.AuthUserInfo;
 import com.dunzung.cloud.framework.dao.base.service.impl.MybatisServiceImpl;
 import com.dunzung.cloud.uas.common.Const;
 import com.dunzung.cloud.uas.entity.AccountEntity;
@@ -8,8 +8,6 @@ import com.dunzung.cloud.uas.entity.RoleEntity;
 import com.dunzung.cloud.uas.entity.UserEntity;
 import com.dunzung.cloud.uas.mapper.AccountMapper;
 import com.dunzung.cloud.uas.service.UasService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,23 +24,16 @@ import java.util.List;
  */
 @Component
 public class UasServiceImpl extends MybatisServiceImpl<AccountMapper, AccountEntity> implements UasService {
-    protected Logger logger = LoggerFactory.getLogger(getClass());
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         AccountEntity account = baseMapper.getAccountByUserName(username);
         if (null == account) {
             throw new UsernameNotFoundException("用户[" + username + "]不存在！");
         }
-
         if (Const.Status.LOCK == Const.Status.valueOf(account.getUserFlag())) {
             throw new UsernameNotFoundException("用户[" + username + "]已锁定！");
         }
-
         logger.info("用户名[" + username + "]登录成功！");
-        return getAuthUser(account);
-    }
-
-    private AuthUserInfo getAuthUser(AccountEntity account) {
         List<GrantedAuthority> authorities = new ArrayList<>();
 
         UserEntity user = account.getUser();
@@ -58,6 +49,7 @@ public class UasServiceImpl extends MybatisServiceImpl<AccountMapper, AccountEnt
         authUser.setOrgName(account.getOrgan().getOrgName());
         return authUser;
     }
+
 
     @Override
     public void updatePassword(String userName, String password) {

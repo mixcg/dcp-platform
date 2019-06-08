@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.dunzung.cloud.bams</groupId>
-    <artifactId>dunzung-cloud-bams</artifactId>
+    <artifactId>dunzung-cloud-bams-service</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 

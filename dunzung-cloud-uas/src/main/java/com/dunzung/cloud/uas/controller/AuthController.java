@@ -11,11 +11,11 @@ import java.security.Principal;
 
 @Api("SSO API接口")
 @RestController
-@RequestMapping("/api/v1/sso")
-public class UasController extends BaseController {
+@RequestMapping("/api/v1/authinfo")
+public class AuthController extends BaseController {
 
     @ApiOperation(value = "用户认证信息", notes = "用户认证信息")
-    @GetMapping(value = "/authinfo")
+    @GetMapping
     public Principal getUserAuthInfo(Principal principal) {
         logger.debug("用户认证信息如下:{}", principal.toString());
         return principal;
