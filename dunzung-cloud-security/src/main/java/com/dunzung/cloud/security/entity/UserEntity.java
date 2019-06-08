@@ -1,7 +1,6 @@
 package com.dunzung.cloud.security.entity;
 
-import com.dunzung.cloud.framework.pagination.PageParam;
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.dunzung.cloud.framework.mvc.pagination.PageParam;
 import lombok.Data;
 
 import java.util.Date;

@@ -1,7 +1,7 @@
 package com.dunzung.cloud.security.service.impl;
 
-import com.dunzung.cloud.framework.base.service.impl.MybatisServiceImpl;
-import com.dunzung.cloud.framework.pagination.PageEntity;
+import com.dunzung.cloud.framework.dao.base.service.impl.MybatisServiceImpl;
+import com.dunzung.cloud.framework.mvc.pagination.PageEntity;
 import com.dunzung.cloud.security.entity.UserEntity;
 import com.dunzung.cloud.security.mapper.UserMapper;
 import com.dunzung.cloud.security.service.UserService;
