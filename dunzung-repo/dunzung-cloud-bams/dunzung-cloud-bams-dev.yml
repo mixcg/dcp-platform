@@ -44,3 +44,4 @@ endpoints:
 management:
   security:
     enabled: false
+
