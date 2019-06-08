@@ -12,7 +12,7 @@ spring:
       profile: dev
       discovery:
         enabled: true
-        service-id: dunzung-cloud-ssoserver
+        service-id: dunzung-cloud-config
 
 # eureka
 eureka:
