@@ -1,6 +1,6 @@
 package com.dunzung.cloud.ssoserver.mapper;
 
-import com.dunzung.cloud.framework.base.CloudMapper;
+import com.dunzung.cloud.framework.dao.base.CloudMapper;
 import com.dunzung.cloud.ssoserver.entity.AccountEntity;
 import org.springframework.stereotype.Repository;
 

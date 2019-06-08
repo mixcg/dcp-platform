@@ -1,6 +1,6 @@
 package com.dunzung.cloud.ssoserver.service;
 
-import com.dunzung.cloud.framework.base.service.MybatisService;
+import com.dunzung.cloud.framework.dao.base.service.MybatisService;
 import com.dunzung.cloud.ssoserver.entity.PwdRuleEntity;
 
 public interface PwdRuleService extends MybatisService<PwdRuleEntity> {

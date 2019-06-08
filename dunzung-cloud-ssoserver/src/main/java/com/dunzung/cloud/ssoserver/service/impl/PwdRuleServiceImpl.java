@@ -1,8 +1,8 @@
 package com.dunzung.cloud.ssoserver.service.impl;
 
-import com.dunzung.cloud.framework.base.service.impl.MybatisServiceImpl;
-import com.dunzung.cloud.framework.exception.PortalException;
-import com.dunzung.cloud.framework.utils.CollectionUtil;
+import com.dunzung.cloud.framework.dao.base.service.impl.MybatisServiceImpl;
+import com.dunzung.cloud.framework.core.exception.PortalException;
+import com.dunzung.cloud.framework.core.utils.CollectionUtil;
 import com.dunzung.cloud.ssoserver.entity.PwdRuleEntity;
 import com.dunzung.cloud.ssoserver.mapper.PwdRuleMapper;
 import com.dunzung.cloud.ssoserver.service.PwdRuleService;

@@ -1,7 +1,7 @@
 package com.dunzung.cloud.ssoserver.service.impl;
 
-import com.dunzung.cloud.framework.AuthUserInfo;
-import com.dunzung.cloud.framework.base.service.impl.MybatisServiceImpl;
+import com.dunzung.cloud.framework.oauth.AuthUserInfo;
+import com.dunzung.cloud.framework.dao.base.service.impl.MybatisServiceImpl;
 import com.dunzung.cloud.ssoserver.common.Const;
 import com.dunzung.cloud.ssoserver.entity.AccountEntity;
 import com.dunzung.cloud.ssoserver.entity.RoleEntity;

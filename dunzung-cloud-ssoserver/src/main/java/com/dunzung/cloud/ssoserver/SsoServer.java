@@ -1,6 +1,6 @@
 package com.dunzung.cloud.ssoserver;
 
-import com.dunzung.cloud.framework.ApplicationStarter;
+import com.dunzung.cloud.framework.mvc.ApplicationStarter;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

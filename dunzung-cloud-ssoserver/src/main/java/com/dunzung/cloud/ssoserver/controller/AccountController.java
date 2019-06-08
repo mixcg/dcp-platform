@@ -1,7 +1,7 @@
 package com.dunzung.cloud.ssoserver.controller;
 
-import com.dunzung.cloud.framework.rest.R;
-import com.dunzung.cloud.framework.web.BaseController;
+import com.dunzung.cloud.framework.mvc.rest.R;
+import com.dunzung.cloud.framework.mvc.web.BaseController;
 import com.dunzung.cloud.ssoserver.entity.PwdRuleEntity;
 import com.dunzung.cloud.ssoserver.entity.vo.AccountVO;
 import com.dunzung.cloud.ssoserver.service.PwdRuleService;
