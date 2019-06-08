@@ -1,4 +1,4 @@
-package com.dunzung.cloud.framework.oauth;
+package com.dunzung.cloud.components.oauth2;
 
 /**
  * Created by Wooola on 2019/6/8.
