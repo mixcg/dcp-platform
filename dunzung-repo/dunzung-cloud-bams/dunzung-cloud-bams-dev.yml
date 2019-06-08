@@ -20,7 +20,7 @@ spring:
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.dunzung.cloud.security.entity
+  type-aliases-package: com.dunzung.cloud.bams.entity
 
 #Swagger
 api:
@@ -28,11 +28,11 @@ api:
     title: 权限管理服务
     contact: zhijund@163.com
     version: 1.0
-    basePackage: com.dunzung.cloud.security.controller
+    basePackage: com.dunzung.cloud.bams.controller
 
 #Admin
 info:
-  name: dunzung-cloud-security
+  name: dunzung-cloud-bams
   description: 权限管理服务
   version: 1.0.0
 

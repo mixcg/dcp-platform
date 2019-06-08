@@ -1,9 +1,26 @@
 zuul:
-  ignored-services: '*'
   routes:
-    security:
+    bams:
       path: /security/**
       serviceId: dunzung-cloud-security
+      sensitiveHeaders:
+    sso:
+      path: /sso/**
+      serviceId: dunzung-cloud-ssoserver
+      sensitiveHeaders:
+  ignored-services: "*"
+
+#################################################################
+security:
+  oauth2:
+    client:
+      client-id: jund
+      client-secret: secret
+      access-token-uri: http://auth-server/uas/oauth/token
+      user-authorization-uri: http://auth-server/uas/oauth/authorize
+    resource:
+      user-info-uri: http://auth-server/uas/api/v1/oauth/info
+      prefer-token-info: false
 
 management:
   security:
