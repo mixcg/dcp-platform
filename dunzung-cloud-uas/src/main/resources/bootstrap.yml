@@ -1,8 +1,6 @@
-# server
 server:
-  port: 80
+  port: 8088
 
-# spring
 spring:
   application:
     name: dunzung-cloud-uas
@@ -14,7 +12,6 @@ spring:
         enabled: true
         service-id: dunzung-cloud-config
 
-# eureka
 eureka:
   client:
     serviceUrl:
