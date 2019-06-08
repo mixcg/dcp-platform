@@ -14,8 +14,8 @@ security:
   basic:
     enabled: false
   user:
-    name: unicom
-    password: 123456
+    name: admin
+    password: @Dunzung1987
 
 eureka:
   client:
