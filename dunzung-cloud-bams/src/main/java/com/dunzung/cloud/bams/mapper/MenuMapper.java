@@ -1,7 +1,7 @@
-package com.dunzung.cloud.security.mapper;
+package com.dunzung.cloud.bams.mapper;
 
 import com.dunzung.cloud.framework.dao.base.CloudMapper;
-import com.dunzung.cloud.security.entity.MenuEntity;
+import com.dunzung.cloud.bams.entity.MenuEntity;
 
 public interface MenuMapper extends CloudMapper<MenuEntity> {
 

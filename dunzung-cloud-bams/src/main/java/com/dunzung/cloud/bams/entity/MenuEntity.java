@@ -1,4 +1,4 @@
-package com.dunzung.cloud.security.entity;
+package com.dunzung.cloud.bams.entity;
 
 import lombok.Data;
 

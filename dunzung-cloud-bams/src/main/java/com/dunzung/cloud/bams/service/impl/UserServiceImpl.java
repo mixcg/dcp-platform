@@ -1,10 +1,10 @@
-package com.dunzung.cloud.security.service.impl;
+package com.dunzung.cloud.bams.service.impl;
 
 import com.dunzung.cloud.framework.dao.base.service.impl.MybatisServiceImpl;
 import com.dunzung.cloud.framework.mvc.pagination.PageEntity;
-import com.dunzung.cloud.security.entity.UserEntity;
-import com.dunzung.cloud.security.mapper.UserMapper;
-import com.dunzung.cloud.security.service.UserService;
+import com.dunzung.cloud.bams.entity.UserEntity;
+import com.dunzung.cloud.bams.mapper.UserMapper;
+import com.dunzung.cloud.bams.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

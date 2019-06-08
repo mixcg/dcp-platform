@@ -1,4 +1,4 @@
-package com.dunzung.cloud.security.common;
+package com.dunzung.cloud.bams.common;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,7 +1,7 @@
-package com.dunzung.cloud.security.mapper;
+package com.dunzung.cloud.bams.mapper;
 
 import com.dunzung.cloud.framework.dao.base.CloudMapper;
-import com.dunzung.cloud.security.entity.ResourceEntity;
+import com.dunzung.cloud.bams.entity.ResourceEntity;
 
 public interface ResourceMapper extends CloudMapper<ResourceEntity> {
 

@@ -1,12 +1,12 @@
-package com.dunzung.cloud.security.controller;
+package com.dunzung.cloud.bams.controller;
 
 import com.dunzung.cloud.framework.mvc.pagination.PageEntity;
 import com.dunzung.cloud.framework.mvc.pagination.PageParam;
 import com.dunzung.cloud.framework.mvc.pagination.Pagination;
 import com.dunzung.cloud.framework.mvc.rest.R;
 import com.dunzung.cloud.framework.mvc.web.BaseController;
-import com.dunzung.cloud.security.entity.UserEntity;
-import com.dunzung.cloud.security.service.UserService;
+import com.dunzung.cloud.bams.entity.UserEntity;
+import com.dunzung.cloud.bams.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
