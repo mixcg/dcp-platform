@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.dunzung.cloud.parent</groupId>
+        <artifactId>dcp-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <groupId>com.dunzung.cloud.components</groupId>
+    <artifactId>dcp-components</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>dcp-components-redis</module>
+        <module>dcp-components-kafka</module>
+        <module>dcp-components-scheduler</module>
+        <module>dcp-components-mongo</module>
+        <module>dcp-components-elasticsearch</module>
+        <module>dcp-components-uuid</module>
+        <module>dcp-components-oauth2</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka-clients.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-kafka.version>1.1.7.RELEASE</spring-kafka.version>
+        <kafka-clients.version>0.11.0.0</kafka-clients.version>
+        <codis.version>0.5.1</codis.version>
+        <fst.version>2.43</fst.version>
+    </properties>
+
+</project>
