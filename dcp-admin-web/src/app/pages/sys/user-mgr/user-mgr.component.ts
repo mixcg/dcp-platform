@@ -3,15 +3,15 @@ import { LocalDataSource } from 'ng2-smart-table';
 import { SmartTableData } from '../../../@core/data/smart-table';
 
 @Component({
-  selector: 'ngx-smart-table',
-  templateUrl: './smart-table.component.html',
+  selector: 'dcp-user-mgr',
+  templateUrl: 'user-mgr.component.html',
   styles: [`
     nb-card {
       transform: translate3d(0, 0, 0);
     }
   `],
 })
-export class SmartTableComponent {
+export class UserMgrComponent {
 
   settings = {
     add: {
@@ -70,4 +70,5 @@ export class SmartTableComponent {
       event.confirm.reject();
     }
   }
+
 }

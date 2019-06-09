@@ -7,6 +7,8 @@ import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { FormsModule } from './forms/forms.module';
 import { TablesModule } from './tables/tables.module'
+import { SysMgrModule } from './sys/sysmgr.module'
+
 
 const routes: Routes = [{
   path: '',
@@ -15,8 +17,8 @@ const routes: Routes = [{
     path: 'dashboard',
     component: ECommerceComponent,
   }, {
-    path: 'iot-dashboard',
-    component: DashboardComponent,
+    path: 'sys',
+    loadChildren: () => SysMgrModule,
   }, {
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
