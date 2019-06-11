@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-scheduler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-components/dcp-components-uuid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-framework/dcp-framework-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-framework/dcp-framework-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-framework/dcp-framework-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-middleware" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-middleware/dcp-configserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-middleware/dcp-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-middleware/dcp-zuulserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dcp-uas-service" charset="UTF-8" />
+  </component>
+</project>
