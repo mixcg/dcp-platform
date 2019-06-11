@@ -15,8 +15,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>dcp-zuulserver</module>
-        <module>dcp-eureka</module>
         <module>dcp-configserver</module>
     </modules>
 
