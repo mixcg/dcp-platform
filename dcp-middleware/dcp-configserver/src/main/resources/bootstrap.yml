@@ -10,13 +10,6 @@ spring:
         git:
           uri: https://github.com/dunzung/dcp-repo.git
           searchPaths: /{application}
-security:
-  basic:
-    enabled: false
-  user:
-    name: admin
-    password: Dunzung1987
-
 eureka:
   client:
     serviceUrl:
